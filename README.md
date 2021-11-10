@@ -1,3 +1,5 @@
+<p><img src="https://fr.wikipedia.org/wiki/LXC#/media/Fichier:Linux_Containers_logo.png" alt="lxd-logo" title="lxd" align="center" height=105 /></p>
+
 # Requirements
 
 - LXD >= 4.0
