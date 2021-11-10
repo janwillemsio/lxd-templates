@@ -46,6 +46,11 @@ You can also specify a distribution release version or architecture with the `-o
 
 * Ubuntu : ubuntu
 
+# Releases
+
+* Ubuntu : focal (20.04), hirsute (21.04), impish (21.10)
+* Fedora : 34 , 35, ...
+
 # References
 
 * Originally forked from Ruskofd : https://github.com/ruskofd/lxd-images/
