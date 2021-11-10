@@ -41,3 +41,11 @@ You can also specify a distribution release version or architecture with the `-o
   $ distrobuilder build-lxd fedora/default.yml -o image.release=35 [options]
   $ distrobuilder build-lxd ubuntu/default.yml -o image.release=impish -o image.architecture=arm64 [options]
   ```
+
+### References
+
+* Originally forked from Ruskofd : https://github.com/ruskofd/lxd-images/
+* LXD : https://linuxcontainers.org/lxd/introduction/
+* Distrobuilder : https://linuxcontainers.org/distrobuilder/introduction/
+* Distrobuilder (doc) : https://distrobuilder.readthedocs.io/en/latest/
+* Official LXD images manifests : https://github.com/lxc/lxc-ci/tree/master/images/
