@@ -1,4 +1,4 @@
-<p><img src="https://fr.wikipedia.org/wiki/LXC#/media/Fichier:Linux_Containers_logo.png" alt="lxd-logo" title="lxd" align="center"/></p>
+<p><img src="https://blog.sakuragawa.moe/content/images/2021/03/9a2865f528f7b846cda54335dec298dda6109bb3.png" alt="lxd-logo" title="lxd" align="center"/></p>
 
 # Requirements
 
