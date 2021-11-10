@@ -19,7 +19,7 @@ targets:
   lxd:
     vm:
       filesystem: ext4
-      size: 21474836480 # 20 GiB
+      size: 34359738368 # 32 GiB
 
 packages:
   manager: apt
@@ -55,7 +55,6 @@ packages:
     - strace
     - systemd
     - tcpdump
-    - tmux
     - tree
     - udev
     - unzip
@@ -83,7 +82,7 @@ packages:
     action: remove
 
 actions:
-  # Generate machine-id in order for the kernel stuff to be configured properly
+  # Generate machine-id in order for the kernel to be configured properly
   - trigger: post-packages
     action: |-
       #!/bin/sh
@@ -325,7 +324,7 @@ files:
       system_info:
         distro: ubuntu
         default_user:
-          name: core
+          name: ubuntu
           lock_passwd: false
           groups: [sudo, adm, systemd-journal]
           sudo: ["ALL=(ALL) NOPASSWD:ALL"]
