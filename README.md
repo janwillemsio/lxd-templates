@@ -42,7 +42,11 @@ You can also specify a distribution release version or architecture with the `-o
   $ distrobuilder build-lxd ubuntu/default.yml -o image.release=impish -o image.architecture=arm64 [options]
   ```
 
-### References
+# Default user
+
+* Ubuntu : ubuntu
+
+# References
 
 * Originally forked from Ruskofd : https://github.com/ruskofd/lxd-images/
 * LXD : https://linuxcontainers.org/lxd/introduction/
